@@ -30,6 +30,6 @@
 
 <h3> 🤝🏻 &nbsp;Connect with Me </h3>
 
-<p align="center">
+<p>
   <a href="https://www.linkedin.com/in/felipeog/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Felipe%20Oliveira-blue?style=flat-square&logo=linkedin"></a>
 </p>
