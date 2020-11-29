@@ -21,7 +21,7 @@
 
 <br/>
 
-<a href="https://github.com/AVS1508">
+<a href="https://github.com/felipeog">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=felipeog&theme=buefy&show_icons=true" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=felipeog&theme=buefy&layout=compact" />
 </a>
@@ -31,5 +31,7 @@
 <h3> 🤝🏻 &nbsp;Connect with Me </h3>
 
 <p>
-  <a href="https://www.linkedin.com/in/felipeog/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Felipe%20Oliveira-blue?style=flat-square&logo=linkedin"></a>
+  <a target="_blank" href="https://www.linkedin.com/in/felipeog/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Felipe%20Oliveira-blue?style=flat-square&logo=linkedin">
+  </a>
 </p>
