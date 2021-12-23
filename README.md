@@ -1,5 +1,3 @@
-![](https://komarev.com/ghpvc/?username=felipeog)
-
 # Hey there! I'm Felipe.
 
 ## 👨🏻‍💻 About Me
