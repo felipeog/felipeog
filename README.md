@@ -34,4 +34,4 @@ I'm working as a Frontend Developer at Winnin.
 
 ## 🤝🏻 Connect with me
 
-[![https://www.linkedin.com/in/felipeog/](https://img.shields.io/badge/LinkedIn-Felipe%20Oliveira-blue?logo=linkedin)](https://www.linkedin.com/in/felipeog/)
+[![https://www.linkedin.com/in/felipeog/](https://img.shields.io/badge/LinkedIn-Felipe%20OG-blue?logo=linkedin)](https://www.linkedin.com/in/felipeog/)
