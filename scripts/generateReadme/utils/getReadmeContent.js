@@ -9,7 +9,7 @@ function getReadmeContent(dependenciesNames) {
     })
     .join("\n");
   const otherTech =
-    `\n` + `### Other tech I like to use\n` + `\n` + techList + `\n`;
+    `\n` + `### Other tech I like to use\n` + `\n` + `${techList}\n`;
 
   return `${sections.header}${sections.about}${sections.stack}${otherTech}${sections.connect}`;
 }
