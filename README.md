@@ -18,6 +18,8 @@ I'm working as a Frontend Developer at Winnin.
 
 ### Other tech I like to use
 
+![](https://img.shields.io/badge/-@parcel/transformer--pug-333)
+![](https://img.shields.io/badge/-@parcel/transformer--sass-333)
 ![](https://img.shields.io/badge/-@typescript--eslint/eslint--plugin-333)
 ![](https://img.shields.io/badge/-@typescript--eslint/parser-333)
 ![](https://img.shields.io/badge/-axios-333)
@@ -42,6 +44,7 @@ I'm working as a Frontend Developer at Winnin.
 ![](https://img.shields.io/badge/-ts--jest-333)
 ![](https://img.shields.io/badge/-ts--node-333)
 ![](https://img.shields.io/badge/-typescript-333)
+![](https://img.shields.io/badge/-xstate-333)
 
 ## 🤝🏻 Connect with me
 
