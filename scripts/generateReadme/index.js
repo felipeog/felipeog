@@ -9,13 +9,13 @@ const commit = require("./utils/commit");
 
 (async function () {
   try {
-    // const repositoriesNames = await getRepositoriesNames();
+    const repositoriesNames = await getRepositoriesNames();
 
-    // for (let index = 0; index < repositoriesNames.length; index++) {
-    //   const repositoryName = repositoriesNames[index];
+    for (let index = 0; index < repositoriesNames.length; index++) {
+      const repositoryName = repositoriesNames[index];
 
-    //   await cloneRepository(repositoryName);
-    // }
+      await cloneRepository(repositoryName);
+    }
 
     const dependenciesNames = getDependenciesNames();
     const readmeContent = getReadmeContent(dependenciesNames);

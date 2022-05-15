@@ -1,9 +1,10 @@
+const fs = require("fs");
 const path = require("path");
 const glob = require("glob");
 
 function getDependenciesNames() {
   const packageGlobPattern = path
-    .resolve(__dirname, "../repositories/**/package.json")
+    .resolve(__dirname, "../../../repositories/**/package.json")
     .replaceAll("\\", "/");
   const packagesPaths = glob.sync(packageGlobPattern);
   const dependencies = packagesPaths.flatMap((packagePath) => {
