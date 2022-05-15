@@ -1,0 +1,14 @@
+name: Readme
+on:
+  workflow_dispatch: {}
+jobs:
+  readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v2
+      - run: |
+          npm ci
+          npm start
