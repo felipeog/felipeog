@@ -5,7 +5,7 @@ function getReadmeContent(dependenciesNames) {
     .map((dependencyName) => {
       const badgeName = encodeURI(dependencyName).replaceAll("-", "--");
 
-      return `![](https://img.shields.io/badge/-${badgeName}-333)`;
+      return `[![](https://img.shields.io/badge/-${badgeName}-333)](${dependencyName})`;
     })
     .join("\n");
   const otherTech =
