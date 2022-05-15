@@ -1,0 +1,11 @@
+{
+  "name": "felipeog",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ./scripts/generateReadme/index.js",
+    "clean": "rm -rf repositories"
+  },
+  "dependencies": {
+    "glob": "^8.0.3"
+  }
+}
