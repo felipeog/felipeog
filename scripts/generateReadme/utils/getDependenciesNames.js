@@ -18,8 +18,10 @@ function getDependenciesNames() {
     return Object.keys(mergedDependencies);
   });
   const dedupedDependencies = [...new Set(dependencies)];
-  const filteredDependencies = dedupedDependencies.filter(
-    (dependency) => !dependency.startsWith("@types/")
+  const filteredDependencies = dedupedDependencies.filter((dependency) =>
+    ["@babel/", "@types/"].every(
+      (notAllowed) => !dependency.startsWith(notAllowed)
+    )
   );
   const sortedDependencies = filteredDependencies.sort((a, b) =>
     a.localeCompare(b)
