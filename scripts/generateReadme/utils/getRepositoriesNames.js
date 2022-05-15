@@ -3,7 +3,7 @@ const { exec } = require("child_process");
 function getRepositoriesNames() {
   return new Promise((resolve, reject) => {
     exec(
-      `gh repo list --json nameWithOwner --limit 3`,
+      `gh repo list --public --json nameWithOwner --limit 3`,
       (error, stdout, stderr) => {
         if (error) {
           reject(`error: ${error.message}`);
