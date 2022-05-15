@@ -18,12 +18,6 @@ I'm working as a Frontend Developer at Winnin.
 
 ### Other tech I like to use
 
-[![](https://img.shields.io/badge/-@babel/cli-333)](https://www.npmjs.com/package/@babel/cli)
-[![](https://img.shields.io/badge/-@babel/core-333)](https://www.npmjs.com/package/@babel/core)
-[![](https://img.shields.io/badge/-@babel/node-333)](https://www.npmjs.com/package/@babel/node)
-[![](https://img.shields.io/badge/-@babel/preset--env-333)](https://www.npmjs.com/package/@babel/preset-env)
-[![](https://img.shields.io/badge/-@babel/preset--react-333)](https://www.npmjs.com/package/@babel/preset-react)
-[![](https://img.shields.io/badge/-@babel/preset--typescript-333)](https://www.npmjs.com/package/@babel/preset-typescript)
 [![](https://img.shields.io/badge/-@chakra--ui/react-333)](https://www.npmjs.com/package/@chakra-ui/react)
 [![](https://img.shields.io/badge/-@emotion/react-333)](https://www.npmjs.com/package/@emotion/react)
 [![](https://img.shields.io/badge/-@emotion/styled-333)](https://www.npmjs.com/package/@emotion/styled)
