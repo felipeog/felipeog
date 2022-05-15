@@ -4,8 +4,9 @@ function getReadmeContent(dependenciesNames) {
   const techList = dependenciesNames
     .map((dependencyName) => {
       const badgeName = encodeURI(dependencyName).replaceAll("-", "--");
+      const npmLink = `https://www.npmjs.com/package/${dependencyName}`;
 
-      return `[![](https://img.shields.io/badge/-${badgeName}-333)](${dependencyName})`;
+      return `[![](https://img.shields.io/badge/-${badgeName}-333)](${npmLink})`;
     })
     .join("\n");
   const otherTech =
