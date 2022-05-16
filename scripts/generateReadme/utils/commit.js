@@ -4,6 +4,8 @@ const email = "17603069+felipeog@users.noreply.github.com";
 const name = "felipeog";
 
 function commit() {
+  console.log("Commiting");
+
   execSync(`git config user.email "${email}"`);
   execSync(`git config user.name "${name}"`);
 

@@ -1,6 +1,8 @@
 const { exec } = require("child_process");
 
 function getRepositoriesNames() {
+  console.log("Getting repositories names");
+
   return new Promise((resolve, reject) => {
     exec(
       `gh repo list --public --json nameWithOwner`,

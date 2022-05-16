@@ -5,6 +5,8 @@ const glob = require("glob");
 const dependencyRules = require("../consts/dependencyRules");
 
 function getDependenciesNames() {
+  console.log("Getting dependencies names");
+
   const packageGlobPattern = path
     .resolve(__dirname, "../../../repositories/**/package.json")
     .replaceAll("\\", "/");

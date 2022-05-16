@@ -8,6 +8,8 @@ const getReadmeContent = require("./utils/getReadmeContent");
 const commit = require("./utils/commit");
 
 async function generateReadme() {
+  console.log("Generating readme");
+
   try {
     const repositoriesNames = await getRepositoriesNames();
 

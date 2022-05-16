@@ -1,6 +1,8 @@
 const readmeSections = require("../consts/readmeSections");
 
 function getReadmeContent(dependenciesNames) {
+  console.log("Getting readme content");
+
   const techList = dependenciesNames
     .map((dependencyName) => {
       const badgeName = encodeURI(dependencyName).replaceAll("-", "--");
