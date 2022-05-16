@@ -1,4 +1,4 @@
-const sections = require("../consts/readmeSections");
+const readmeSections = require("../consts/readmeSections");
 
 function getReadmeContent(dependenciesNames) {
   const techList = dependenciesNames
@@ -9,10 +9,18 @@ function getReadmeContent(dependenciesNames) {
       return `[![](https://img.shields.io/badge/-${badgeName}-333)](${npmLink})`;
     })
     .join("\n");
-  const otherTech =
-    `\n` + `### Other tech I like to use\n` + `\n` + `${techList}\n`;
+  const otherTechSection =
+    `### Other tech I like to use\n` + `\n` + `${techList}\n`;
+  const orderedSections = [
+    readmeSections.header,
+    readmeSections.about,
+    readmeSections.stack,
+    otherTechSection,
+    readmeSections.connect,
+  ];
+  const content = orderedSections.join("\n");
 
-  return `${sections.header}${sections.about}${sections.stack}${otherTech}${sections.connect}`;
+  return content;
 }
 
 module.exports = getReadmeContent;

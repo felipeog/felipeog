@@ -1,22 +1,7 @@
-const { exec } = require("child_process");
+const { execSync } = require("child_process");
 
 function cloneRepository(repositoryName) {
-  return new Promise((resolve, reject) => {
-    exec(
-      `gh repo clone ${repositoryName} repositories/${repositoryName}`,
-      (error, stdout, stderr) => {
-        if (error) {
-          reject(`error: ${error.message}`);
-        }
-
-        if (stderr) {
-          console.log(`stderr: ${stderr}`);
-        }
-
-        resolve(stdout);
-      }
-    );
-  });
+  execSync(`gh repo clone ${repositoryName} repositories/${repositoryName}`);
 }
 
 module.exports = cloneRepository;

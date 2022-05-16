@@ -1,11 +1,9 @@
 const header = `# Hey there, I'm Felipe!\n`;
 const about =
-  `\n` +
   `## 👨🏻‍💻 About me\n` +
   `\n` +
   `I'm working as a Frontend Developer at Winnin.\n`;
 const stack =
-  `\n` +
   `## 🛠 Tech stack\n` +
   `\n` +
   `![CSS3](https://img.shields.io/badge/-CSS3-333333?style=flat&logo=CSS3&logoColor=ffffff)\n` +
@@ -18,7 +16,6 @@ const stack =
   `![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js&logoColor=ffffff)\n` +
   `![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=ffffff)\n`;
 const connect =
-  `\n` +
   `## 🤝🏻 Connect with me\n` +
   `\n` +
   `[![https://www.linkedin.com/in/felipeog/](https://img.shields.io/badge/LinkedIn-Felipe%20OG-blue?logo=linkedin)](https://www.linkedin.com/in/felipeog/)\n`;
