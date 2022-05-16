@@ -32,6 +32,7 @@ I'm working as a Frontend Developer at Winnin.
 [![](https://img.shields.io/badge/-prettier-333)](https://www.npmjs.com/package/prettier)
 [![](https://img.shields.io/badge/-react-333)](https://www.npmjs.com/package/react)
 [![](https://img.shields.io/badge/-typescript-333)](https://www.npmjs.com/package/typescript)
+[![](https://img.shields.io/badge/-xstate-333)](https://www.npmjs.com/package/xstate)
 
 ## 🤝🏻 Connect with me
 
