@@ -18,20 +18,7 @@ I'm working as a Frontend Developer at Winnin.
 
 ### Other tech I like to use
 
-[![](https://img.shields.io/badge/-axios-333)](https://www.npmjs.com/package/axios)
-[![](https://img.shields.io/badge/-classnames-333)](https://www.npmjs.com/package/classnames)
-[![](https://img.shields.io/badge/-eslint-333)](https://www.npmjs.com/package/eslint)
-[![](https://img.shields.io/badge/-glob-333)](https://www.npmjs.com/package/glob)
-[![](https://img.shields.io/badge/-husky-333)](https://www.npmjs.com/package/husky)
-[![](https://img.shields.io/badge/-jest-333)](https://www.npmjs.com/package/jest)
-[![](https://img.shields.io/badge/-lint--staged-333)](https://www.npmjs.com/package/lint-staged)
-[![](https://img.shields.io/badge/-parcel-333)](https://www.npmjs.com/package/parcel)
-[![](https://img.shields.io/badge/-pixelmatch-333)](https://www.npmjs.com/package/pixelmatch)
-[![](https://img.shields.io/badge/-pngjs-333)](https://www.npmjs.com/package/pngjs)
-[![](https://img.shields.io/badge/-postcss-333)](https://www.npmjs.com/package/postcss)
-[![](https://img.shields.io/badge/-prettier-333)](https://www.npmjs.com/package/prettier)
-[![](https://img.shields.io/badge/-react-333)](https://www.npmjs.com/package/react)
-[![](https://img.shields.io/badge/-typescript-333)](https://www.npmjs.com/package/typescript)
+
 
 ## 🤝🏻 Connect with me
 
