@@ -1,7 +1,7 @@
 const readmeSections = require("../consts/readmeSections");
 
 function getReadmeContent(dependenciesNames) {
-  console.log("Getting readme content");
+  console.log("Getting readme content...");
 
   const techList = dependenciesNames
     .map((dependencyName) => {
@@ -21,6 +21,8 @@ function getReadmeContent(dependenciesNames) {
     readmeSections.connect,
   ];
   const content = orderedSections.join("\n");
+
+  console.log("Done");
 
   return content;
 }

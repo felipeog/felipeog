@@ -5,7 +5,7 @@ const glob = require("glob");
 const dependencyRules = require("../consts/dependencyRules");
 
 function getDependenciesNames() {
-  console.log("Getting dependencies names");
+  console.log("Getting dependencies names...");
 
   const packageGlobPattern = path
     .resolve(__dirname, "../../../repositories/**/package.json")
@@ -39,6 +39,8 @@ function getDependenciesNames() {
   const sortedDependencies = filteredDependencies.sort((a, b) =>
     a.localeCompare(b)
   );
+
+  console.log("Done");
 
   return sortedDependencies;
 }

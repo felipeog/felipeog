@@ -2,22 +2,16 @@ const fs = require("fs");
 const path = require("path");
 
 const getRepositoriesNames = require("./utils/getRepositoriesNames");
-const cloneRepository = require("./utils/cloneRepository");
 const getDependenciesNames = require("./utils/getDependenciesNames");
 const getReadmeContent = require("./utils/getReadmeContent");
+const cloneRepositories = require("./utils/cloneRepositories");
 const commit = require("./utils/commit");
 
 async function generateReadme() {
-  console.log("Generating readme");
-
   try {
     const repositoriesNames = await getRepositoriesNames();
 
-    for (let index = 0; index < repositoriesNames.length; index++) {
-      const repositoryName = repositoriesNames[index];
-
-      cloneRepository(repositoryName);
-    }
+    await cloneRepositories(repositoriesNames);
 
     const dependenciesNames = getDependenciesNames();
     const readmeContent = getReadmeContent(dependenciesNames);
@@ -26,7 +20,7 @@ async function generateReadme() {
 
     commit();
   } catch (error) {
-    console.log(error);
+    console.log(`Error generating readme: ${error}`);
   }
 }
 
