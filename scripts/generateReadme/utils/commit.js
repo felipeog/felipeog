@@ -11,7 +11,7 @@ function commit() {
 
   try {
     execSync("git add README.md");
-    execSync('git commit -m "Update README.md"');
+    execSync('git diff-index --quiet HEAD || git commit -m "Update README.md"');
     execSync("git push -u origin HEAD");
   } catch (error) {
     console.log(error);
