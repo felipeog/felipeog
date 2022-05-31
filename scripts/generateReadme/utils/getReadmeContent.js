@@ -1,4 +1,4 @@
-const readmeSections = require("../consts/readmeSections");
+const { readmeSections } = require("../consts");
 
 function getReadmeContent(dependenciesNames) {
   console.log("Getting readme content...");

@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const glob = require("glob");
 
-const dependencyRules = require("../consts/dependencyRules");
+const { dependencyRules } = require("../consts");
 
 function checkRules({ string, rules }) {
   if (rules.equal.length) {

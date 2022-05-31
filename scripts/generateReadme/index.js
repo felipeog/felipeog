@@ -1,11 +1,13 @@
 const fs = require("fs");
 const path = require("path");
 
-const getRepositoriesNames = require("./utils/getRepositoriesNames");
-const getDependenciesNames = require("./utils/getDependenciesNames");
-const getReadmeContent = require("./utils/getReadmeContent");
-const cloneRepositories = require("./utils/cloneRepositories");
-const commit = require("./utils/commit");
+const {
+  getRepositoriesNames,
+  getDependenciesNames,
+  getReadmeContent,
+  cloneRepositories,
+  commit,
+} = require("./utils");
 
 async function generateReadme() {
   try {
