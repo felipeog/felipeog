@@ -4,7 +4,7 @@ const glob = require("glob");
 
 const dependencyRules = require("../consts/dependencyRules");
 
-function checkRules(string, rules) {
+function checkRules({ string, rules }) {
   if (rules.equal.length) {
     const equal = rules.equal.some((equalRule) => string === equalRule);
 
@@ -61,16 +61,19 @@ function getDependenciesNames() {
   });
   const dedupedDependencies = [...new Set(dependencies)];
   const filteredDependencies = dedupedDependencies.filter((dependency) => {
-    const isDependencyAllowed = checkRules(dependency, dependencyRules.allowed);
+    const isDependencyAllowed = checkRules({
+      string: dependency,
+      rules: dependencyRules.allowed,
+    });
 
     if (isDependencyAllowed) {
       return true;
     }
 
-    const isDependencyNotAllowed = checkRules(
-      dependency,
-      dependencyRules.notAllowed
-    );
+    const isDependencyNotAllowed = checkRules({
+      string: dependency,
+      rules: dependencyRules.notAllowed,
+    });
 
     if (isDependencyNotAllowed) {
       return false;
