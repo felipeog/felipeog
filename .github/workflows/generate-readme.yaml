@@ -12,6 +12,6 @@ jobs:
       - name: Generate readme
         run: |
           npm ci
-          npm start
+          npm run generate-readme
         env:
           GITHUB_TOKEN: ${{ secrets.README_TOKEN }}
