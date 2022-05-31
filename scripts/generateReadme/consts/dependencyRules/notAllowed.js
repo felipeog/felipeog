@@ -1,4 +1,6 @@
-const startsWithList = [
+const equal = [];
+const include = ["webpack-plugin"];
+const start = [
   "@babel/",
   "@emotion/",
   "@parcel/",
@@ -24,17 +26,11 @@ const startsWithList = [
   "ts-",
   "webpack-",
 ];
-const includesList = ["webpack-plugin"];
-const allowedList = [
-  "@babel/core",
-  "@emotion/styled",
-  "@testing-library/dom",
-  "@unform/core",
-  "semantic-ui-react",
-];
+const end = [];
 
 module.exports = {
-  startsWithList,
-  includesList,
-  allowedList,
+  equal,
+  include,
+  start,
+  end,
 };
