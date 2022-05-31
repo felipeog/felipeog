@@ -4,6 +4,44 @@ const glob = require("glob");
 
 const dependencyRules = require("../consts/dependencyRules");
 
+function checkRules(string, rules) {
+  if (rules.equal.length) {
+    const equal = rules.equal.some((equalRule) => string === equalRule);
+
+    if (equal) {
+      return true;
+    }
+  }
+
+  if (rules.include.length) {
+    const include = rules.include.some((includeRule) =>
+      string.includes(includeRule)
+    );
+
+    if (include) {
+      return true;
+    }
+  }
+
+  if (rules.start.length) {
+    const start = rules.start.some((startRule) => string.startsWith(startRule));
+
+    if (start) {
+      return true;
+    }
+  }
+
+  if (rules.end.length) {
+    const end = rules.end.some((endRule) => string.endsWith(endRule));
+
+    if (end) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
 function getDependenciesNames() {
   console.log("Getting dependencies names...");
 
@@ -23,18 +61,22 @@ function getDependenciesNames() {
   });
   const dedupedDependencies = [...new Set(dependencies)];
   const filteredDependencies = dedupedDependencies.filter((dependency) => {
-    if (dependencyRules.allowedList.includes(dependency)) {
+    const isDependencyAllowed = checkRules(dependency, dependencyRules.allowed);
+
+    if (isDependencyAllowed) {
       return true;
     }
 
-    const isStartsWithValid = dependencyRules.startsWithList.every(
-      (notAllowed) => !dependency.startsWith(notAllowed)
-    );
-    const isIncludesValid = dependencyRules.includesList.every(
-      (notAllowed) => !dependency.includes(notAllowed)
+    const isDependencyNotAllowed = checkRules(
+      dependency,
+      dependencyRules.notAllowed
     );
 
-    return isStartsWithValid && isIncludesValid;
+    if (isDependencyNotAllowed) {
+      return false;
+    }
+
+    return true;
   });
   const sortedDependencies = filteredDependencies.sort((a, b) =>
     a.localeCompare(b)
