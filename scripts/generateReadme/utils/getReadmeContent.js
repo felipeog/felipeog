@@ -3,7 +3,7 @@ const readmeSections = require("../consts/readmeSections");
 function getReadmeContent(dependenciesNames) {
   console.log("Getting readme content...");
 
-  const techList = dependenciesNames
+  const techContent = dependenciesNames
     .map((dependencyName) => {
       const badgeName = encodeURI(dependencyName).replaceAll("-", "--");
       const npmLink = `https://www.npmjs.com/package/${dependencyName}`;
@@ -12,7 +12,7 @@ function getReadmeContent(dependenciesNames) {
     })
     .join("\n");
   const otherTechSection =
-    `### Other tech I like to use\n` + `\n` + `${techList}\n`;
+    `### Other tech I like to use\n` + `\n` + `${techContent}\n`;
   const orderedSections = [
     readmeSections.header,
     readmeSections.about,
