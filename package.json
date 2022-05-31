@@ -2,9 +2,9 @@
   "name": "felipeog",
   "version": "1.0.0",
   "scripts": {
-    "start": "node ./scripts/generateReadme/index.js",
-    "clean": "rm -rf repositories",
-    "dev": "npm run clean && npm start"
+    "generate-readme": "node ./scripts/generateReadme/index.js",
+    "dev": "npm run clean && NODE_ENV=development npm run generate-readme",
+    "clean": "rm -rf repositories"
   },
   "dependencies": {
     "glob": "^8.0.3"

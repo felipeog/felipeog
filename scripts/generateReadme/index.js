@@ -18,7 +18,9 @@ async function generateReadme() {
 
     fs.writeFileSync(path.resolve(__dirname, "../../README.md"), readmeContent);
 
-    commit();
+    if (process.env.NODE_ENV !== "development") {
+      commit();
+    }
   } catch (error) {
     console.log(`Error generating readme: ${error}`);
   }
