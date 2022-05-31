@@ -5,8 +5,7 @@ function getRepositoriesNames() {
 
   return new Promise((resolve, reject) => {
     exec(
-      `gh repo list --public --json nameWithOwner`,
-      // `gh repo list --visibility public --json nameWithOwner --limit 2`,
+      `gh repo list --visibility public --json nameWithOwner`,
       (error, stdout, stderr) => {
         if (error) {
           reject(`error: ${error.message}`);
