@@ -9,7 +9,7 @@ const equal = [
 const include = [];
 const start = [];
 
-module.exports = {
+export const allowed = {
   end,
   equal,
   include,

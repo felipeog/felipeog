@@ -28,7 +28,7 @@ const start = [
   "webpack-",
 ];
 
-module.exports = {
+export const notAllowed = {
   end,
   equal,
   include,

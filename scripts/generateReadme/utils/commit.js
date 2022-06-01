@@ -1,4 +1,4 @@
-const { execSync } = require("child_process");
+import { execSync } from "child_process";
 
 const EMAIL = "17603069+felipeog@users.noreply.github.com";
 const NAME = "felipeog";
@@ -7,7 +7,7 @@ function quietExecSync(command) {
   execSync(command, { stdio: "pipe" });
 }
 
-function commit() {
+export function commit() {
   console.log("Commiting...");
 
   try {
@@ -24,5 +24,3 @@ function commit() {
     console.log(`Error commiting: ${error}`);
   }
 }
-
-module.exports = commit;

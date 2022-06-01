@@ -1,8 +1,9 @@
-const fs = require("fs");
-const glob = require("glob");
-const path = require("path");
+import fs from "fs";
+import glob from "glob";
+import path from "path";
 
-const { dependencyRules } = require("../consts");
+import { dependencyRules } from "../consts/index.js";
+import { getCurrentDirectory } from "../utils/index.js";
 
 function checkRules({ string, rules }) {
   if (rules.equal.length) {
@@ -48,19 +49,20 @@ function checkRules({ string, rules }) {
   return false;
 }
 
-function getDependenciesNames() {
+export function getDependenciesNames() {
   console.log("Getting dependencies names...");
 
+  const currentDirectory = getCurrentDirectory(import.meta.url);
   const packageGlobPattern = path
-    .resolve(__dirname, "../../../repositories/**/package.json")
+    .resolve(currentDirectory, "../../../repositories/**/package.json")
     .replaceAll("\\", "/");
   const packagesPaths = glob.sync(packageGlobPattern);
   const dependencies = packagesPaths.flatMap((packagePath) => {
     const packageFileBuffer = fs.readFileSync(packagePath);
-    const package = JSON.parse(packageFileBuffer);
+    const packages = JSON.parse(packageFileBuffer);
     const mergedDependencies = {
-      ...package?.dependencies,
-      ...package?.devDependencies,
+      ...packages?.dependencies,
+      ...packages?.devDependencies,
     };
 
     return Object.keys(mergedDependencies);
@@ -95,5 +97,3 @@ function getDependenciesNames() {
 
   return sortedDependencies;
 }
-
-module.exports = getDependenciesNames;

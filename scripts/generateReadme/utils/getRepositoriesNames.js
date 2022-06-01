@@ -1,6 +1,6 @@
-const { octokit } = require("../services");
+import { octokit } from "../services/index.js";
 
-async function getRepositoriesNames() {
+export async function getRepositoriesNames() {
   console.log("Getting repositories names...");
 
   try {
@@ -23,5 +23,3 @@ async function getRepositoriesNames() {
     console.log(`Error getting repositories names: ${error}`);
   }
 }
-
-module.exports = getRepositoriesNames;

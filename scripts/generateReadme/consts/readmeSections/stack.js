@@ -18,6 +18,5 @@ const stackContent = stackList
     return `[![](https://img.shields.io/badge/-${badgeName}-333?style=flat&logo=${logoName}&logoColor=fff)](${googleLink})`;
   })
   .join("\n");
-const stack = `## 🛠 Tech stack\n` + `\n` + `${stackContent}\n`;
 
-module.exports = stack;
+export const stack = `## 🛠 Tech stack\n` + `\n` + `${stackContent}\n`;

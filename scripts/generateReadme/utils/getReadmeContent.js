@@ -1,6 +1,6 @@
-const { readmeSections } = require("../consts");
+import { readmeSections } from "../consts/index.js";
 
-function getReadmeContent(dependenciesNames) {
+export function getReadmeContent(dependenciesNames) {
   console.log("Getting readme content...");
 
   const techContent = dependenciesNames
@@ -26,5 +26,3 @@ function getReadmeContent(dependenciesNames) {
 
   return content;
 }
-
-module.exports = getReadmeContent;
