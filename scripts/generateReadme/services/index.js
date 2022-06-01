@@ -1,3 +1,1 @@
-module.exports = {
-  octokit: require("./octokit"),
-};
+export { octokit } from "./octokit.js";

@@ -1,3 +1,1 @@
-const header = `# Hey there, I'm Felipe!\n`;
-
-module.exports = header;
+export const header = `# Hey there, I'm Felipe!\n`;

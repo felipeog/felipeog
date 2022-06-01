@@ -1,4 +1,2 @@
-module.exports = {
-  allowed: require("./allowed"),
-  notAllowed: require("./notAllowed"),
-};
+export { allowed } from "./allowed.js";
+export { notAllowed } from "./notAllowed.js";

@@ -1,17 +1,14 @@
-if (process.env.NODE_ENV === "development") {
-  require("dotenv").config();
-}
+import fs from "fs";
+import path from "path";
 
-const fs = require("fs");
-const path = require("path");
-
-const {
+import {
   cloneRepositories,
   commit,
+  getCurrentDirectory,
   getDependenciesNames,
   getReadmeContent,
   getRepositoriesNames,
-} = require("./utils");
+} from "./utils/index.js";
 
 async function generateReadme() {
   try {
@@ -21,8 +18,12 @@ async function generateReadme() {
 
     const dependenciesNames = getDependenciesNames();
     const readmeContent = getReadmeContent(dependenciesNames);
+    const currentDirectory = getCurrentDirectory(import.meta.url);
 
-    fs.writeFileSync(path.resolve(__dirname, "../../README.md"), readmeContent);
+    fs.writeFileSync(
+      path.resolve(currentDirectory, "../../README.md"),
+      readmeContent
+    );
 
     if (process.env.NODE_ENV !== "development") {
       commit();

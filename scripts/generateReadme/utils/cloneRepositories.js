@@ -1,4 +1,4 @@
-const { exec } = require("child_process");
+import { exec } from "child_process";
 
 function cloneRepository(repositoryName) {
   return new Promise((resolve, reject) => {
@@ -15,20 +15,18 @@ function cloneRepository(repositoryName) {
   });
 }
 
-function cloneRepositories(repositoriesNames) {
+export async function cloneRepositories(repositoriesNames) {
   console.log("Cloning repositories...");
 
   const clonePromises = repositoriesNames.map((repositoryName) => {
     return cloneRepository(repositoryName);
   });
 
-  return Promise.all(clonePromises)
-    .then(() => {
-      console.log("Done");
-    })
-    .catch((error) => {
-      console.log(`Error cloning repositories: ${error}`);
-    });
-}
+  try {
+    await Promise.all(clonePromises);
 
-module.exports = cloneRepositories;
+    console.log("Done");
+  } catch (error) {
+    console.log(`Error cloning repositories: ${error}`);
+  }
+}

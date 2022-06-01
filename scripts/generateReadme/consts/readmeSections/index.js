@@ -1,6 +1,4 @@
-module.exports = {
-  about: require("./about"),
-  connect: require("./connect"),
-  header: require("./header"),
-  stack: require("./stack"),
-};
+export { about } from "./about.js";
+export { connect } from "./connect.js";
+export { header } from "./header.js";
+export { stack } from "./stack.js";
