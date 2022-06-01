@@ -16,6 +16,14 @@
   },
   "devDependencies": {
     "eslint": "^8.16.0",
-    "eslint-plugin-node": "^11.1.0"
+    "eslint-plugin-node": "^11.1.0",
+    "lint-staged": "^13.0.0",
+    "prettier": "^2.6.2"
+  },
+  "lint-staged": {
+    "./scripts/**/*": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   }
 }
