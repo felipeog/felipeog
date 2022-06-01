@@ -12,9 +12,9 @@ function getRepositoriesNames() {
         }
 
         const repositories = JSON.parse(stdout);
-        const repositoriesNames = repositories.map(
-          (repository) => repository.nameWithOwner
-        );
+        const repositoriesNames = repositories.map((repository) => {
+          return repository.nameWithOwner;
+        });
 
         console.log("Done");
 

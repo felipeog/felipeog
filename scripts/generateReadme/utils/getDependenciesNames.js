@@ -6,7 +6,9 @@ const { dependencyRules } = require("../consts");
 
 function checkRules({ string, rules }) {
   if (rules.equal.length) {
-    const equal = rules.equal.some((equalRule) => string === equalRule);
+    const equal = rules.equal.some((equalRule) => {
+      return string === equalRule;
+    });
 
     if (equal) {
       return true;
@@ -14,9 +16,9 @@ function checkRules({ string, rules }) {
   }
 
   if (rules.include.length) {
-    const include = rules.include.some((includeRule) =>
-      string.includes(includeRule)
-    );
+    const include = rules.include.some((includeRule) => {
+      return string.includes(includeRule);
+    });
 
     if (include) {
       return true;
@@ -24,7 +26,9 @@ function checkRules({ string, rules }) {
   }
 
   if (rules.start.length) {
-    const start = rules.start.some((startRule) => string.startsWith(startRule));
+    const start = rules.start.some((startRule) => {
+      return string.startsWith(startRule);
+    });
 
     if (start) {
       return true;
@@ -32,7 +36,9 @@ function checkRules({ string, rules }) {
   }
 
   if (rules.end.length) {
-    const end = rules.end.some((endRule) => string.endsWith(endRule));
+    const end = rules.end.some((endRule) => {
+      return string.endsWith(endRule);
+    });
 
     if (end) {
       return true;
@@ -81,9 +87,9 @@ function getDependenciesNames() {
 
     return true;
   });
-  const sortedDependencies = filteredDependencies.sort((a, b) =>
-    a.localeCompare(b)
-  );
+  const sortedDependencies = filteredDependencies.sort((a, b) => {
+    return a.localeCompare(b);
+  });
 
   console.log("Done");
 
