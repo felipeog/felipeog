@@ -6,11 +6,11 @@ const fs = require("fs");
 const path = require("path");
 
 const {
-  getRepositoriesNames,
-  getDependenciesNames,
-  getReadmeContent,
   cloneRepositories,
   commit,
+  getDependenciesNames,
+  getReadmeContent,
+  getRepositoriesNames,
 } = require("./utils");
 
 async function generateReadme() {

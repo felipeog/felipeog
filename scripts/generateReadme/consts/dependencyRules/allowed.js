@@ -1,3 +1,4 @@
+const end = [];
 const equal = [
   "@babel/core",
   "@emotion/styled",
@@ -7,11 +8,10 @@ const equal = [
 ];
 const include = [];
 const start = [];
-const end = [];
 
 module.exports = {
+  end,
   equal,
   include,
   start,
-  end,
 };

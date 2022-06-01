@@ -5,11 +5,11 @@ async function getRepositoriesNames() {
 
   try {
     const response = await octokit.request("GET /users/felipeog/repos", {
-      type: "owner",
-      sort: "pushed",
       direction: "desc",
-      per_page: 100,
       page: 1,
+      per_page: 100,
+      sort: "pushed",
+      type: "owner",
     });
     const repositories = response?.data ?? [];
     const repositoriesNames = repositories.map((repository) => {

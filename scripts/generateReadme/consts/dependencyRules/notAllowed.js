@@ -1,3 +1,4 @@
+const end = [];
 const equal = [];
 const include = ["webpack-plugin"];
 const start = [
@@ -26,11 +27,10 @@ const start = [
   "ts-",
   "webpack-",
 ];
-const end = [];
 
 module.exports = {
+  end,
   equal,
   include,
   start,
-  end,
 };
