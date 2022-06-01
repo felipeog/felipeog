@@ -1,27 +1,27 @@
-const { exec } = require("child_process");
+const octokit = require("../services/octokit");
 
-function getRepositoriesNames() {
+async function getRepositoriesNames() {
   console.log("Getting repositories names...");
 
-  return new Promise((resolve, reject) => {
-    exec(
-      `gh repo list --visibility public --json nameWithOwner`,
-      (error, stdout, stderr) => {
-        if (error) {
-          reject(`error: ${error.message}`);
-        }
+  try {
+    const response = await octokit.request("GET /users/felipeog/repos", {
+      type: "owner",
+      sort: "pushed",
+      direction: "desc",
+      per_page: 100,
+      page: 1,
+    });
+    const repositories = response?.data ?? [];
+    const repositoriesNames = repositories.map((repository) => {
+      return repository.full_name;
+    });
 
-        const repositories = JSON.parse(stdout);
-        const repositoriesNames = repositories.map((repository) => {
-          return repository.nameWithOwner;
-        });
+    console.log("Done");
 
-        console.log("Done");
-
-        resolve(repositoriesNames);
-      }
-    );
-  });
+    return repositoriesNames;
+  } catch (error) {
+    console.log(`Error getting repositories names: ${error}`);
+  }
 }
 
 module.exports = getRepositoriesNames;
