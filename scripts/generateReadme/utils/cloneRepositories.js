@@ -3,7 +3,7 @@ const { exec } = require("child_process");
 function cloneRepository(repositoryName) {
   return new Promise((resolve, reject) => {
     exec(
-      `gh repo clone ${repositoryName} repositories/${repositoryName} -- --bare`,
+      `gh repo clone ${repositoryName} repositories/${repositoryName} -- --depth 1`,
       (error, stdout, stderr) => {
         if (error) {
           reject(`error: ${error.message}`);
@@ -18,11 +18,17 @@ function cloneRepository(repositoryName) {
 function cloneRepositories(repositoriesNames) {
   console.log("Cloning repositories...");
 
-  const clonePromises = repositoriesNames.map((repositoryName) =>
-    cloneRepository(repositoryName)
-  );
+  const clonePromises = repositoriesNames.map((repositoryName) => {
+    return cloneRepository(repositoryName);
+  });
 
-  return Promise.all(clonePromises).then(() => console.log("Done"));
+  return Promise.all(clonePromises)
+    .then(() => {
+      console.log("Done");
+    })
+    .catch((error) => {
+      console.log(`Error cloning repositories: ${error}`);
+    });
 }
 
 module.exports = cloneRepositories;
