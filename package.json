@@ -7,6 +7,8 @@
     "clean": "rm -rf repositories"
   },
   "dependencies": {
-    "glob": "^8.0.3"
+    "dotenv": "^16.0.1",
+    "glob": "^8.0.3",
+    "octokit": "^1.7.1"
   }
 }
