@@ -3,7 +3,7 @@ const { exec } = require("child_process");
 function cloneRepository(repositoryName) {
   return new Promise((resolve, reject) => {
     exec(
-      `gh repo clone ${repositoryName} repositories/${repositoryName}`,
+      `gh repo clone ${repositoryName} repositories/${repositoryName} -- --bare`,
       (error, stdout, stderr) => {
         if (error) {
           reject(`error: ${error.message}`);
