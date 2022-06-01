@@ -2,6 +2,9 @@
   "name": "felipeog",
   "version": "1.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "generate-readme": "node ./scripts/generateReadme/index.js",
     "dev": "npm run clean && NODE_ENV=development npm run generate-readme",
@@ -10,5 +13,9 @@
   "dependencies": {
     "glob": "^8.0.3",
     "octokit": "^1.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-plugin-node": "^11.1.0"
   }
 }
