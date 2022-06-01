@@ -58,6 +58,7 @@ I'm working as a Frontend Developer at Winnin.
 [![](https://img.shields.io/badge/-nanoid-333)](https://www.npmjs.com/package/nanoid)
 [![](https://img.shields.io/badge/-next-333)](https://www.npmjs.com/package/next)
 [![](https://img.shields.io/badge/-nodemon-333)](https://www.npmjs.com/package/nodemon)
+[![](https://img.shields.io/badge/-octokit-333)](https://www.npmjs.com/package/octokit)
 [![](https://img.shields.io/badge/-parcel-333)](https://www.npmjs.com/package/parcel)
 [![](https://img.shields.io/badge/-pixelmatch-333)](https://www.npmjs.com/package/pixelmatch)
 [![](https://img.shields.io/badge/-plop-333)](https://www.npmjs.com/package/plop)
