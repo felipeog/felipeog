@@ -1,4 +1,4 @@
-const octokit = require("../services/octokit");
+const { octokit } = require("../services");
 
 async function getRepositoriesNames() {
   console.log("Getting repositories names...");
