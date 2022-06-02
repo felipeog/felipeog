@@ -1,18 +1,15 @@
 import { execSync } from "child_process";
 
-const EMAIL = "17603069+felipeog@users.noreply.github.com";
-const NAME = "felipeog";
-
 function quietExecSync(command) {
   execSync(command, { stdio: "pipe" });
 }
 
-export function commit() {
+export function commitReadme(user) {
   console.log("Commiting...");
 
   try {
-    quietExecSync(`git config user.email "${EMAIL}"`);
-    quietExecSync(`git config user.name "${NAME}"`);
+    quietExecSync(`git config user.email "${user.email}"`);
+    quietExecSync(`git config user.name "${user.name}"`);
     quietExecSync("git add README.md");
     quietExecSync(
       'git diff-index --quiet HEAD || git commit -m "Update README.md"'

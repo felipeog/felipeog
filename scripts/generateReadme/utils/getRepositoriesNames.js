@@ -1,10 +1,10 @@
 import { octokit } from "../services/index.js";
 
-export async function getRepositoriesNames() {
+export async function getRepositoriesNames(user) {
   console.log("Getting repositories names...");
 
   try {
-    const response = await octokit.request("GET /users/felipeog/repos", {
+    const response = await octokit.request(`GET /users/${user.name}/repos`, {
       direction: "desc",
       page: 1,
       per_page: 100,

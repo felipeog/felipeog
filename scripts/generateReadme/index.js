@@ -3,16 +3,17 @@ import path from "path";
 
 import {
   cloneRepositories,
-  commit,
+  commitReadme,
   getCurrentDirectory,
   getDependenciesNames,
   getReadmeContent,
   getRepositoriesNames,
 } from "./utils/index.js";
+import { user } from "./consts/index.js";
 
 async function generateReadme() {
   try {
-    const repositoriesNames = await getRepositoriesNames();
+    const repositoriesNames = await getRepositoriesNames(user);
 
     await cloneRepositories(repositoriesNames);
 
@@ -26,7 +27,7 @@ async function generateReadme() {
     );
 
     if (process.env.NODE_ENV !== "development") {
-      commit();
+      commitReadme(user);
     }
   } catch (error) {
     console.log(`Error generating readme: ${error}`);
