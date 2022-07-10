@@ -5,6 +5,7 @@ const equal = [
   "@testing-library/dom",
   "@unform/core",
   "semantic-ui-react",
+  "solid-js",
 ];
 const include = [];
 const start = [];

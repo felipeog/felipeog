@@ -6,6 +6,7 @@ const start = [
   "@emotion/",
   "@parcel/",
   "@prettier/",
+  "@sveltejs/",
   "@testing-library/",
   "@types/",
   "@typescript-eslint/",
@@ -24,6 +25,7 @@ const start = [
   "react-",
   "sass-",
   "semantic-ui-",
+  "solid-",
   "ts-",
   "webpack-",
 ];
