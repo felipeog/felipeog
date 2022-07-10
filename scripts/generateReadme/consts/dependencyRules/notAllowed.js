@@ -2,6 +2,7 @@ const end = [];
 const equal = [];
 const include = ["webpack-plugin"];
 const start = [
+  "@algolia/",
   "@babel/",
   "@emotion/",
   "@parcel/",
