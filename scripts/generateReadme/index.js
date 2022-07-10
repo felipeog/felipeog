@@ -13,7 +13,7 @@ import { user } from "./consts/index.js";
 
 export async function generateReadme() {
   try {
-    const repositoriesNames = await getRepositoriesNames(user);
+    const repositoriesNames = await getRepositoriesNames();
 
     await cloneRepositories(repositoriesNames);
 
