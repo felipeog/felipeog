@@ -11,9 +11,9 @@ import {
 } from "./utils/index.js";
 import { user } from "./consts/index.js";
 
-async function generateReadme() {
+export async function generateReadme() {
   try {
-    const repositoriesNames = await getRepositoriesNames(user);
+    const repositoriesNames = await getRepositoriesNames();
 
     await cloneRepositories(repositoriesNames);
 
@@ -33,5 +33,3 @@ async function generateReadme() {
     console.log(`Error generating readme: ${error}`);
   }
 }
-
-generateReadme();

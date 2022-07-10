@@ -3,7 +3,7 @@ import { exec } from "child_process";
 function cloneRepository(repositoryName) {
   return new Promise((resolve, reject) => {
     exec(
-      `git clone https://github.com/${repositoryName}.git repositories/${repositoryName} --depth 1`,
+      `git clone https://${process.env.PERSONAL_ACCESS_TOKEN}@github.com/${repositoryName}.git repositories/${repositoryName} --depth 1`,
       (error, stdout) => {
         if (error) {
           reject(`error: ${error.message}`);
