@@ -12,6 +12,7 @@ const start = [
   "@types/",
   "@typescript-eslint/",
   "@unform/",
+  "@vitejs/",
   "axios-",
   "babel-",
   "css-",
