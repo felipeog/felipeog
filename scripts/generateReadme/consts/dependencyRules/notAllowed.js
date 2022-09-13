@@ -1,6 +1,6 @@
 const end = [];
 const equal = [];
-const include = ["webpack-plugin"];
+const include = ["prettier-plugin", "webpack-plugin"];
 const start = [
   "@algolia/",
   "@babel/",
@@ -28,6 +28,7 @@ const start = [
   "sass-",
   "semantic-ui-",
   "solid-",
+  "svelte-",
   "ts-",
   "webpack-",
 ];
