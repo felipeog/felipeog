@@ -31,7 +31,6 @@ I'm working as a Frontend Developer at Winnin.
 [![](https://img.shields.io/badge/-@prismicio/client-333)](https://www.npmjs.com/package/@prismicio/client)
 [![](https://img.shields.io/badge/-@testing--library/dom-333)](https://www.npmjs.com/package/@testing-library/dom)
 [![](https://img.shields.io/badge/-@unform/core-333)](https://www.npmjs.com/package/@unform/core)
-[![](https://img.shields.io/badge/-@vitejs/plugin--react-333)](https://www.npmjs.com/package/@vitejs/plugin-react)
 [![](https://img.shields.io/badge/-algoliasearch-333)](https://www.npmjs.com/package/algoliasearch)
 [![](https://img.shields.io/badge/-autoprefixer-333)](https://www.npmjs.com/package/autoprefixer)
 [![](https://img.shields.io/badge/-axios-333)](https://www.npmjs.com/package/axios)
