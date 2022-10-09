@@ -7,6 +7,7 @@ const start = [
   "@emotion/",
   "@parcel/",
   "@prettier/",
+  "@storybook/",
   "@sveltejs/",
   "@testing-library/",
   "@types/",
