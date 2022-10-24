@@ -2,7 +2,9 @@
 
 ## 👨🏻‍💻 About me
 
-I'm working as a Frontend Developer at Winnin.
+I'm working as a Frontend Developer at [Winnin](https://winnin.com/en/).
+
+Sometimes I write about Web Development on [my blog](https://blog.felipeog.com.br/en/).
 
 ## 🛠 Tech stack
 
@@ -22,7 +24,9 @@ I'm working as a Frontend Developer at Winnin.
 [![](https://img.shields.io/badge/-@chakra--ui/react-333)](https://www.npmjs.com/package/@chakra-ui/react)
 [![](https://img.shields.io/badge/-@docsearch/css-333)](https://www.npmjs.com/package/@docsearch/css)
 [![](https://img.shields.io/badge/-@docusaurus/core-333)](https://www.npmjs.com/package/@docusaurus/core)
+[![](https://img.shields.io/badge/-@docusaurus/module--type--aliases-333)](https://www.npmjs.com/package/@docusaurus/module-type-aliases)
 [![](https://img.shields.io/badge/-@docusaurus/preset--classic-333)](https://www.npmjs.com/package/@docusaurus/preset-classic)
+[![](https://img.shields.io/badge/-@docusaurus/theme--live--codeblock-333)](https://www.npmjs.com/package/@docusaurus/theme-live-codeblock)
 [![](https://img.shields.io/badge/-@emotion/styled-333)](https://www.npmjs.com/package/@emotion/styled)
 [![](https://img.shields.io/badge/-@hookform/resolvers-333)](https://www.npmjs.com/package/@hookform/resolvers)
 [![](https://img.shields.io/badge/-@mdx--js/react-333)](https://www.npmjs.com/package/@mdx-js/react)
@@ -87,6 +91,7 @@ I'm working as a Frontend Developer at Winnin.
 [![](https://img.shields.io/badge/-pre--commit-333)](https://www.npmjs.com/package/pre-commit)
 [![](https://img.shields.io/badge/-prettier-333)](https://www.npmjs.com/package/prettier)
 [![](https://img.shields.io/badge/-pretty--quick-333)](https://www.npmjs.com/package/pretty-quick)
+[![](https://img.shields.io/badge/-prism--react--renderer-333)](https://www.npmjs.com/package/prism-react-renderer)
 [![](https://img.shields.io/badge/-prismic--dom-333)](https://www.npmjs.com/package/prismic-dom)
 [![](https://img.shields.io/badge/-pug-333)](https://www.npmjs.com/package/pug)
 [![](https://img.shields.io/badge/-puppeteer-333)](https://www.npmjs.com/package/puppeteer)
