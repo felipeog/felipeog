@@ -4,6 +4,7 @@ const include = ["prettier-plugin", "webpack-plugin"];
 const start = [
   "@algolia/",
   "@babel/",
+  "@docusaurus/",
   "@emotion/",
   "@parcel/",
   "@prettier/",

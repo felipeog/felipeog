@@ -1,6 +1,7 @@
 const end = [];
 const equal = [
   "@babel/core",
+  "@docusaurus/core",
   "@emotion/styled",
   "@storybook/react",
   "@testing-library/dom",
