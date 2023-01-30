@@ -20,6 +20,9 @@ Sometimes I write about Web Development on [my blog](https://blog.felipeog.com.b
 [![](https://img.shields.io/badge/-Node.js-333?style=flat&logo=node.js&logoColor=fff)](https://www.google.com/search?q=Node.js)
 [![](https://img.shields.io/badge/-Visual%20Studio%20Code-333?style=flat&logo=visual-studio-code&logoColor=fff)](https://www.google.com/search?q=Visual%20Studio%20Code)
 
+<!--
+TODO: move the script to another repo
+
 ### Other tech I like to use
 
 #### a
@@ -299,3 +302,4 @@ Sometimes I write about Web Development on [my blog](https://blog.felipeog.com.b
 #### y
 
 [![](https://img.shields.io/badge/-yup-333)](https://www.npmjs.com/package/yup)
+-->
