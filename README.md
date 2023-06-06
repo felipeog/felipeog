@@ -4,9 +4,7 @@
 
 ## 👨🏻‍💻 About me
 
-I'm working as a Frontend Developer at [Winnin](https://winnin.com/en/).
-
-Sometimes I write about Web Development on [my blog](https://blog.felipeog.com.br/en/).
+I'm a Frontend Developer. Sometimes I write about Web Development on [my blog](https://blog.felipeog.com.br/en/).
 
 ## 🛠 Tech stack
 
