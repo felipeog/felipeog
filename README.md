@@ -43,7 +43,16 @@ Sometimes I write about **Web Development** on [**my blog**](https://blog.felipe
 - [PEBMED](https://github.com/felipeog/pebmed-frontend-challenge)
 - [Winnin](https://github.com/felipeog/teste-winnin)
 
-**Projects**
+**Courses**
 
 - [Rocketseat Ignite](https://github.com/felipeog/ignite)
 - [LinkedIn Learning](https://github.com/felipeog/linkedin-learning)
+- [curso.dev](https://github.com/felipeog/cd-tabnews)
+- Full Cycle
+  - [Desafio Go](https://github.com/felipeog/fc-docker-go)
+  - [Nginx com Node.js](https://github.com/felipeog/fc-docker-nginx-nodejs)
+
+**Study**
+
+- [AWK](https://github.com/felipeog/awk)
+- [Bash](https://github.com/felipeog/bash)
