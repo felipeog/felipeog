@@ -31,6 +31,7 @@ Sometimes I write about **Web Development** on [**my blog**](https://blog.felipe
 - [Learn then do](https://github.com/felipeog/learn-then-do)
 - [Random scribble](https://github.com/felipeog/random-scribble)
 - [Red flag](https://github.com/felipeog/red-flag)
+- [Sliced text](https://github.com/felipeog/sliced-text)
 - [Tumbling dice](https://github.com/felipeog/tumbling-dice)
 
 **Challenges**
