@@ -34,6 +34,7 @@ Sometimes I write about **Web Development** on [**my blog**](https://blog.felipe
 
 **Challenges**
 
+- [Advent of code 2024](https://github.com/felipeog/advent-of-code-2024)
 - [Rocketseat #boraCodar](https://github.com/felipeog/bora-codar)
 - [Caju](https://github.com/felipeog/caju-frontend-challenge)
 - [CSS Battle](https://github.com/felipeog/cssbattle)
