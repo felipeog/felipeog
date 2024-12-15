@@ -25,6 +25,7 @@ Sometimes I write about **Web Development** on [**my blog**](https://blog.felipe
 
 - [All day long](https://github.com/felipeog/all-day-long)
 - [Do it!](https://github.com/felipeog/do-it)
+- [Game of life](https://github.com/felipeog/game-of-life)
 - [Good mood](https://github.com/felipeog/good-mood)
 - [Homer](https://github.com/felipeog/homer)
 - [Learn then do](https://github.com/felipeog/learn-then-do)
