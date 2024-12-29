@@ -41,6 +41,8 @@ Sometimes I write about **Web Development** on [**my blog**](https://blog.felipe
 - [Rocketseat #boraCodar](https://github.com/felipeog/bora-codar)
 - [Caju](https://github.com/felipeog/caju-frontend-challenge)
 - [CSS Battle](https://github.com/felipeog/cssbattle)
+- Developer Roadmaps
+  - [Reddit Client](https://github.com/felipeog/rm-reddit-client)
 - [Frontend Mentor](https://github.com/felipeog/frontend-mentor)
   - [Calculator](https://github.com/felipeog/fm-calculator-app)
   - [Feature cards](https://github.com/felipeog/fm-four-card-feature-section)
