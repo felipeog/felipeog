@@ -33,7 +33,6 @@ Sometimes I write about **Web Development** on [**my blog**](https://blog.felipe
 - [Red flag](https://github.com/felipeog/red-flag)
 - [Sliced text](https://github.com/felipeog/sliced-text)
 - [Tumbling dice](https://github.com/felipeog/tumbling-dice)
-- [Windows](https://github.com/felipeog/windows)
 
 **Challenges**
 
