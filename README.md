@@ -2,7 +2,7 @@
 
 Hello! My name is **Felipe**, and I'm a **Frontend Developer**.
 
-Sometimes I write about **Web Development** on [**my blog**](https://blog.felipeog.com.br/en/).
+I write about **Web Development** and **creative animations** on [**my blog**](https://blog.felipeog.com.br/en/).
 
 ## 🛠 Tech stack
 
@@ -36,31 +36,8 @@ Sometimes I write about **Web Development** on [**my blog**](https://blog.felipe
 
 **Challenges**
 
-- [Advent of code 2024](https://github.com/felipeog/advent-of-code-2024)
-- [Rocketseat #boraCodar](https://github.com/felipeog/bora-codar)
-- [Caju](https://github.com/felipeog/caju-frontend-challenge)
 - [CSS Battle](https://github.com/felipeog/cssbattle)
-- Developer Roadmaps
-  - [Reddit Client](https://github.com/felipeog/rm-reddit-client)
-- [Frontend Mentor](https://github.com/felipeog/frontend-mentor)
-  - [Calculator](https://github.com/felipeog/fm-calculator-app)
-  - [Feature cards](https://github.com/felipeog/fm-four-card-feature-section)
-  - [Multi step form](https://github.com/felipeog/fm-multi-step-form)
-  - [Tip calculator](https://github.com/felipeog/fm-tip-calculator-app)
-- [PEBMED](https://github.com/felipeog/pebmed-frontend-challenge)
-- [Winnin](https://github.com/felipeog/teste-winnin)
 
 **Courses**
 
-- [Rocketseat Ignite](https://github.com/felipeog/ignite)
-- [LinkedIn Learning](https://github.com/felipeog/linkedin-learning)
 - [curso.dev](https://github.com/felipeog/cd-tabnews)
-- Full Cycle
-  - [Desafio Go](https://github.com/felipeog/fc-docker-go)
-  - [Nginx com Node.js](https://github.com/felipeog/fc-docker-nginx-nodejs)
-
-**Study**
-
-- [AWK](https://github.com/felipeog/awk)
-- [Bash](https://github.com/felipeog/bash)
-- [Go](https://github.com/felipeog/go)
