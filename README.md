@@ -28,6 +28,7 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 - [Game of life](https://github.com/felipeog/game-of-life)
 - [Good mood](https://github.com/felipeog/good-mood)
 - [Homer](https://github.com/felipeog/homer)
+- [Image to pattern](https://github.com/felipeog/image-to-pattern)
 - [Learn then do](https://github.com/felipeog/learn-then-do)
 - [Random scribble](https://github.com/felipeog/random-scribble)
 - [Red flag](https://github.com/felipeog/red-flag)
