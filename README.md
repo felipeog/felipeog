@@ -24,6 +24,7 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 **Experiments with graphics**
 
 - [All day long](https://github.com/felipeog/all-day-long)
+- [Dithering](https://github.com/felipeog/dithering)
 - [Do it!](https://github.com/felipeog/do-it)
 - [Game of life](https://github.com/felipeog/game-of-life)
 - [Good mood](https://github.com/felipeog/good-mood)
@@ -33,6 +34,7 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 - [Random scribble](https://github.com/felipeog/random-scribble)
 - [Red flag](https://github.com/felipeog/red-flag)
 - [Sliced text](https://github.com/felipeog/sliced-text)
+- [Truchet](https://github.com/felipeog/truchet)
 - [Tumbling dice](https://github.com/felipeog/tumbling-dice)
 
 **Challenges**
