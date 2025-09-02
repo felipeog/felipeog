@@ -31,6 +31,8 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 - [Homer](https://github.com/felipeog/homer)
 - [Image to pattern](https://github.com/felipeog/image-to-pattern)
 - [Learn then do](https://github.com/felipeog/learn-then-do)
+- [Lissajous](https://github.com/felipeog/lissajous)
+- [Pseudo 3D microwave](https://github.com/felipeog/pseudo-3d-microwave)
 - [Random scribble](https://github.com/felipeog/random-scribble)
 - [Red flag](https://github.com/felipeog/red-flag)
 - [Sliced text](https://github.com/felipeog/sliced-text)
