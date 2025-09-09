@@ -23,21 +23,21 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 
 **Experiments with graphics**
 
-- [All day long](https://github.com/felipeog/all-day-long)
-- [Dithering](https://github.com/felipeog/dithering)
-- [Do it!](https://github.com/felipeog/do-it)
-- [Game of life](https://github.com/felipeog/game-of-life)
-- [Good mood](https://github.com/felipeog/good-mood)
-- [Homer](https://github.com/felipeog/homer)
-- [Image to pattern](https://github.com/felipeog/image-to-pattern)
-- [Learn then do](https://github.com/felipeog/learn-then-do)
-- [Lissajous](https://github.com/felipeog/lissajous)
-- [Pseudo 3D microwave](https://github.com/felipeog/pseudo-3d-microwave)
-- [Random scribble](https://github.com/felipeog/random-scribble)
-- [Red flag](https://github.com/felipeog/red-flag)
-- [Sliced text](https://github.com/felipeog/sliced-text)
-- [Truchet](https://github.com/felipeog/truchet)
-- [Tumbling dice](https://github.com/felipeog/tumbling-dice)
+- [All day long](https://github.com/felipeog/all-day-long) - HTML and CSS recreation of an animation I found on Dribbble
+- [Dithering](https://github.com/felipeog/dithering) - Floyd-Steinberg image dithering algorithm
+- [Do it!](https://github.com/felipeog/do-it) - HTML, CSS, and JS animation inspired by an animation I found on Dribbble
+- [Game of life](https://github.com/felipeog/game-of-life) - The Conway's Game of Life is a cellular automaton
+- [Good mood](https://github.com/felipeog/good-mood) - SVG recreation of an animation I found on Dribbble
+- [Homer](https://github.com/felipeog/homer) - Homer is watching 👀
+- [Image to pattern](https://github.com/felipeog/image-to-pattern) - Create patterns from images
+- [Learn then do](https://github.com/felipeog/learn-then-do) - HTML and CSS recreation of an animation I found on Pinterest
+- [Lissajous](https://github.com/felipeog/lissajous) - A Lissajous curve is the graph of a system of parametric equations
+- [Pseudo 3D microwave](https://github.com/felipeog/pseudo-3d-microwave) - An interactive web visualization of a pseudo 3D microwave
+- [Random scribble](https://github.com/felipeog/random-scribble) - A little experiment with SVG and GSAP
+- [Red flag](https://github.com/felipeog/red-flag) - SVG recreation of an animation I found on Dribbble
+- [Sliced text](https://github.com/felipeog/sliced-text) - An animation made with clip path
+- [Truchet](https://github.com/felipeog/truchet) - Truchet tiles are square tiles decorated with patterns that are not rotationally symmetric
+- [Tumbling dice](https://github.com/felipeog/tumbling-dice) - Experimenting with CSS 3D transforms
 
 **Challenges**
 
