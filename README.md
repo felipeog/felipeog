@@ -21,6 +21,10 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 
 ## 💻 Projects
 
+**Accessibility**
+
+- [web.dev Accessibility Testing](https://github.com/felipeog/webdev-accessibility-testing) - Accessibility testing demo
+
 **Experiments with graphics**
 
 - [All day long](https://github.com/felipeog/all-day-long) - HTML and CSS recreation of an animation I found on Dribbble
