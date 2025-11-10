@@ -15,7 +15,7 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 ![](https://img.shields.io/badge/-Git-333?style=flat&logo=git&logoColor=fff)
 ![](https://img.shields.io/badge/-GitHub-333?style=flat&logo=github&logoColor=fff)
 
-![](https://img.shields.io/badge/-Visual%20Studio%20Code-333?style=flat&logo=visual-studio-code&logoColor=fff)
+![](https://img.shields.io/badge/-Visual%20Studio%20Code-333?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTMwLjg2NSAzLjQ0OCAyNC4yODIuMjgxYTEuOTkgMS45OSAwIDAgMC0yLjI3Ni4zODVMOS4zOTcgMTIuMTcxIDMuOTAyIDguMDA0YTEuMzMgMS4zMyAwIDAgMC0xLjcwMy4wNzNMLjQzOSA5LjY4MWExLjMzIDEuMzMgMCAwIDAtLjAwNSAxLjk2OUw1LjIgMTUuOTk5LjQzNCAyMC4zNDhhMS4zMyAxLjMzIDAgMCAwIC4wMDUgMS45NjlsMS43NiAxLjYwNGExLjMzIDEuMzMgMCAwIDAgMS43MDMuMDczbDUuNDk1LTQuMTcyIDEyLjYxNSAxMS41MWExLjk4IDEuOTggMCAwIDAgMi4yNzEuMzg1bDYuNTg5LTMuMTcyYTEuOTkgMS45OSAwIDAgMCAxLjEzLTEuODAyVjUuMjQ4YzAtLjc2Ni0uNDQzLTEuNDY5LTEuMTM1LTEuODAyem0tNi44NiAxOS44MThMMTQuNDMyIDE2bDkuNTczLTcuMjY2eiIvPgo8L3N2Zz4K)
 ![](https://img.shields.io/badge/-Json-333?style=flat&logo=json&logoColor=fff)
 ![](https://img.shields.io/badge/-Markdown-333?style=flat&logo=markdown&logoColor=fff)
 
