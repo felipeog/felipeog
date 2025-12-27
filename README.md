@@ -47,6 +47,10 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 
 - [CSS Battle](https://github.com/felipeog/cssbattle)
 
+**PHP**
+
+- [PHP](https://github.com/felipeog/php-net) - Learning PHP by making projects
+
 **Courses**
 
 - [curso.dev](https://github.com/felipeog/cd-tabnews)
