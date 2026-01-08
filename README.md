@@ -45,7 +45,7 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 
 **Challenges**
 
-- [CSS Battle](https://github.com/felipeog/cssbattle)
+- [CSS Battle](https://github.com/felipeog/cssbattle) - My CSSBattle solutions presented on a responsive grid
 
 **PHP**
 
@@ -53,4 +53,4 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 
 **Courses**
 
-- [curso.dev](https://github.com/felipeog/cd-tabnews)
+- [curso.dev](https://github.com/felipeog/cd-tabnews) - `tabnews.com.br` clone
