@@ -28,6 +28,7 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 **Experiments with graphics**
 
 - [All day long](https://github.com/felipeog/all-day-long) - HTML and CSS recreation of an animation I found on Dribbble
+- [Beh Zee Ay](https://github.com/felipeog/beh-zee-ay) - Using De Casteljau's Algorithm and Bernstein Polynomial to create Bézier curves
 - [Dithering](https://github.com/felipeog/dithering) - Floyd-Steinberg image dithering algorithm
 - [Do it!](https://github.com/felipeog/do-it) - HTML, CSS, and JS animation inspired by an animation I found on Dribbble
 - [Game of life](https://github.com/felipeog/game-of-life) - The Conway's Game of Life is a cellular automaton
