@@ -1,16 +1,20 @@
 # 👨🏻‍💻 About me
 
-Hello! My name is **Felipe**, and I'm a **Frontend Developer**.
+Hello! I'm **Felipe**, a **Frontend Developer** obsessed with the intersection of code and art.
 
 I write about **Web Development** and **creative animations** on [**my blog**](https://blog.felipeog.com.br/en/).
 
 ## 🛠 Tech stack
 
 ![](https://img.shields.io/badge/-HTML5-333?style=flat&logo=html5&logoColor=fff)
-![](https://img.shields.io/badge/-CSS3-333?style=flat&logo=css3&logoColor=fff)
+![](https://img.shields.io/badge/-SVG-333?style=flat&logo=svg&logoColor=fff)
+![](https://img.shields.io/badge/-CSS-333?style=flat&logo=css&logoColor=fff)
 ![](https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript&logoColor=fff)
 ![](https://img.shields.io/badge/-Node.js-333?style=flat&logo=node.js&logoColor=fff)
 ![](https://img.shields.io/badge/-TypeScript-333?style=flat&logo=typescript&logoColor=fff)
+
+![](https://img.shields.io/badge/-React-333?style=flat&logo=react&logoColor=fff)
+![](https://img.shields.io/badge/-Next.js-333?style=flat&logo=next.js&logoColor=fff)
 
 ![](https://img.shields.io/badge/-Git-333?style=flat&logo=git&logoColor=fff)
 ![](https://img.shields.io/badge/-GitHub-333?style=flat&logo=github&logoColor=fff)
@@ -24,6 +28,14 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 **Accessibility**
 
 - [web.dev Accessibility Testing](https://github.com/felipeog/webdev-accessibility-testing) - Accessibility testing demo
+
+**Algorithmic visualizations**
+
+- [Beh Zee Ay](https://github.com/felipeog/beh-zee-ay) - Using De Casteljau's Algorithm and Bernstein Polynomial to create Bézier curves
+- [Dithering](https://github.com/felipeog/dithering) - Floyd-Steinberg image dithering algorithm
+- [Game of life](https://github.com/felipeog/game-of-life) - The Conway's Game of Life is a cellular automaton
+- [Lissajous](https://github.com/felipeog/lissajous) - A Lissajous curve is the graph of a system of parametric equations
+- [Truchet](https://github.com/felipeog/truchet) - Truchet tiles are square tiles decorated with patterns that are not rotationally symmetric
 
 **Blog**
 
@@ -42,25 +54,16 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 
 - [curso.dev](https://github.com/felipeog/cd-tabnews) - `tabnews.com.br` clone
 
-**Experiments with graphics**
+**Creative coding and motion**
 
 - [All day long](https://github.com/felipeog/all-day-long) - HTML and CSS recreation of an animation I found on Dribbble
-- [Beh Zee Ay](https://github.com/felipeog/beh-zee-ay) - Using De Casteljau's Algorithm and Bernstein Polynomial to create Bézier curves
-- [Dithering](https://github.com/felipeog/dithering) - Floyd-Steinberg image dithering algorithm
 - [Do it!](https://github.com/felipeog/do-it) - HTML, CSS, and JS animation inspired by an animation I found on Dribbble
-- [Game of life](https://github.com/felipeog/game-of-life) - The Conway's Game of Life is a cellular automaton
 - [Good mood](https://github.com/felipeog/good-mood) - SVG recreation of an animation I found on Dribbble
 - [Homer](https://github.com/felipeog/homer) - Homer is watching 👀
 - [Image to pattern](https://github.com/felipeog/image-to-pattern) - Create patterns from images
 - [Learn then do](https://github.com/felipeog/learn-then-do) - HTML and CSS recreation of an animation I found on Pinterest
-- [Lissajous](https://github.com/felipeog/lissajous) - A Lissajous curve is the graph of a system of parametric equations
 - [Pseudo 3D microwave](https://github.com/felipeog/pseudo-3d-microwave) - An interactive web visualization of a pseudo 3D microwave
 - [Random scribble](https://github.com/felipeog/random-scribble) - A little experiment with SVG and GSAP
 - [Red flag](https://github.com/felipeog/red-flag) - SVG recreation of an animation I found on Dribbble
 - [Sliced text](https://github.com/felipeog/sliced-text) - An animation made with clip path
-- [Truchet](https://github.com/felipeog/truchet) - Truchet tiles are square tiles decorated with patterns that are not rotationally symmetric
 - [Tumbling dice](https://github.com/felipeog/tumbling-dice) - Experimenting with CSS 3D transforms
-
-**PHP**
-
-- [PHP](https://github.com/felipeog/php-net) - Learning PHP by making projects
