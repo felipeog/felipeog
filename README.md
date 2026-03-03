@@ -25,6 +25,23 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 
 - [web.dev Accessibility Testing](https://github.com/felipeog/webdev-accessibility-testing) - Accessibility testing demo
 
+**Blog**
+
+- [Felipe OG blog posts](https://github.com/felipeog/felipeog-blog-posts) - Repository for managing blog posts using GitHub Projects
+
+**Challenges**
+
+- [CSS Battle](https://github.com/felipeog/cssbattle) - My CSSBattle solutions presented on a responsive grid
+
+**College**
+
+- [Cid'Arte](https://github.com/felipeog/cidarte) - Website created for an architecture project
+- [Padronagem](https://github.com/felipeog/padronagem) - Interactive version of an Industrial Design exercise
+
+**Courses**
+
+- [curso.dev](https://github.com/felipeog/cd-tabnews) - `tabnews.com.br` clone
+
 **Experiments with graphics**
 
 - [All day long](https://github.com/felipeog/all-day-long) - HTML and CSS recreation of an animation I found on Dribbble
@@ -44,14 +61,6 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 - [Truchet](https://github.com/felipeog/truchet) - Truchet tiles are square tiles decorated with patterns that are not rotationally symmetric
 - [Tumbling dice](https://github.com/felipeog/tumbling-dice) - Experimenting with CSS 3D transforms
 
-**Challenges**
-
-- [CSS Battle](https://github.com/felipeog/cssbattle) - My CSSBattle solutions presented on a responsive grid
-
 **PHP**
 
 - [PHP](https://github.com/felipeog/php-net) - Learning PHP by making projects
-
-**Courses**
-
-- [curso.dev](https://github.com/felipeog/cd-tabnews) - `tabnews.com.br` clone
