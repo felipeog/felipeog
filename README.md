@@ -72,10 +72,10 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 
 Practical projects from the Computer Science program.
 
-- [Desenvolvimento de Software](https://github.com/felipeog/dcp-pi-01-desenvolvimento-de-software)
-- [Desenvolvimento de Apps](https://github.com/felipeog/dcp-pi-02-desenvolvimento-de-apps)
-- [Computação em Nuvem](https://github.com/felipeog/dcp-pi-03-computacao-em-nuvem)
-- [Computação Científica Aplicada](https://github.com/felipeog/dcp-pi-04-computacao-cientifica-aplicada)
-- [Ciência de Dados](https://github.com/felipeog/dcp-pi-05-ciencia-de-dados)
-- [Games Engines](https://github.com/felipeog/dcp-pi-06-games-engines)
-- [Ciências da Computação](https://github.com/felipeog/dcp-pi-07-ciencias-da-computacao)
+- [Desenvolvimento de Software](https://github.com/felipeog/dcp-pi-01-desenvolvimento-de-software) - A responsive, interactive website for discovering and registering for technology events
+- [Desenvolvimento de Apps](https://github.com/felipeog/dcp-pi-02-desenvolvimento-de-apps) - A cross-platform mobile app (Web, Android, iOS) for personal financial management
+- [Computação em Nuvem](https://github.com/felipeog/dcp-pi-03-computacao-em-nuvem) - A serverless web application for product reviews identified by barcode
+- [Computação Científica Aplicada](https://github.com/felipeog/dcp-pi-04-computacao-cientifica-aplicada) - A compiler for a graphics DSL that generates valid SVG rendered in the browser
+- [Ciência de Dados](https://github.com/felipeog/dcp-pi-05-ciencia-de-dados) - A complete, containerized data science pipeline from ETL to BI dashboard
+- [Games Engines](https://github.com/felipeog/dcp-pi-06-games-engines) - A puzzle game where the player reproduces a target guitar tone
+- [Ciências da Computação](https://github.com/felipeog/dcp-pi-07-ciencias-da-computacao) - A web platform to manage information security end to end
