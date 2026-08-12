@@ -67,3 +67,15 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 - [Red flag](https://github.com/felipeog/red-flag) - SVG recreation of an animation I found on Dribbble
 - [Sliced text](https://github.com/felipeog/sliced-text) - An animation made with clip path
 - [Tumbling dice](https://github.com/felipeog/tumbling-dice) - Experimenting with CSS 3D transforms
+
+**College**
+
+Practical projects from the Computer Science program.
+
+- [Desenvolvimento de Software](https://github.com/felipeog/dcp-pi-01-desenvolvimento-de-software)
+- [Desenvolvimento de Apps](https://github.com/felipeog/dcp-pi-02-desenvolvimento-de-apps)
+- [Computação em Nuvem](https://github.com/felipeog/dcp-pi-03-computacao-em-nuvem)
+- [Computação Científica Aplicada](https://github.com/felipeog/dcp-pi-04-computacao-cientifica-aplicada)
+- [Ciência de Dados](https://github.com/felipeog/dcp-pi-05-ciencia-de-dados)
+- [Games Engines](https://github.com/felipeog/dcp-pi-06-games-engines)
+- [Ciências da Computação](https://github.com/felipeog/dcp-pi-07-ciencias-da-computacao)
