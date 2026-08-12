@@ -25,10 +25,6 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 
 ## 💻 Projects
 
-**Accessibility**
-
-- [web.dev Accessibility Testing](https://github.com/felipeog/webdev-accessibility-testing) - Accessibility testing demo
-
 **Algorithmic visualizations**
 
 - [Beh Zee Ay](https://github.com/felipeog/beh-zee-ay) - Using De Casteljau's Algorithm and Bernstein Polynomial to create Bézier curves
@@ -45,15 +41,6 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 
 - [CSS Battle](https://github.com/felipeog/cssbattle) - My CSSBattle solutions presented on a responsive grid
 
-**College**
-
-- [Cid'Arte](https://github.com/felipeog/cidarte) - Website created for an architecture project
-- [Padronagem](https://github.com/felipeog/padronagem) - Interactive version of an Industrial Design exercise
-
-**Courses**
-
-- [curso.dev](https://github.com/felipeog/cd-tabnews) - `tabnews.com.br` clone
-
 **Creative coding and motion**
 
 - [All day long](https://github.com/felipeog/all-day-long) - HTML and CSS recreation of an animation I found on Dribbble
@@ -68,9 +55,16 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 - [Sliced text](https://github.com/felipeog/sliced-text) - An animation made with clip path
 - [Tumbling dice](https://github.com/felipeog/tumbling-dice) - Experimenting with CSS 3D transforms
 
+**Accessibility**
+
+- [web.dev Accessibility Testing](https://github.com/felipeog/webdev-accessibility-testing) - Accessibility testing demo
+
 **College**
 
-Practical projects from the Computer Science program.
+- [Cid'Arte](https://github.com/felipeog/cidarte) - Website created for an architecture project
+- [Padronagem](https://github.com/felipeog/padronagem) - Interactive version of an Industrial Design exercise
+
+Practical projects from the Computer Science program:
 
 - [Desenvolvimento de Software](https://github.com/felipeog/dcp-pi-01-desenvolvimento-de-software) - A responsive, interactive website for discovering and registering for technology events
 - [Desenvolvimento de Apps](https://github.com/felipeog/dcp-pi-02-desenvolvimento-de-apps) - A cross-platform mobile app (Web, Android, iOS) for personal financial management
