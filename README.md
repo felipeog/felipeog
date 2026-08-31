@@ -25,7 +25,7 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 
 ## 💻 Projects
 
-**Creative coding and motion**
+### Creative coding and motion
 
 - [All day long](https://felipeog.com.br/github/all-day-long) - HTML and CSS recreation of an animation I found on Dribbble
 - [Beh Zee Ay](https://felipeog.com.br/github/beh-zee-ay) - Using De Casteljau's Algorithm and Bernstein Polynomial to create Bézier curves
@@ -45,7 +45,9 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 - [Truchet](https://felipeog.com.br/github/truchet) - Truchet tiles are square tiles decorated with patterns that are not rotationally symmetric
 - [Tumbling dice](https://felipeog.com.br/github/tumbling-dice) - Experimenting with CSS 3D transforms
 
-**College**
+### College
+
+Computer Science
 
 - [Desenvolvimento de Software](https://felipeog.com.br/github/dcp-pi-01-desenvolvimento-de-software) - A responsive, interactive website for discovering and registering for technology events
 - [Desenvolvimento de Apps](https://felipeog.com.br/github/dcp-pi-02-desenvolvimento-de-apps) - A cross-platform mobile app (Web, Android, iOS) for personal financial management
@@ -55,10 +57,13 @@ I write about **Web Development** and **creative animations** on [**my blog**](h
 - [Games Engines](https://felipeog.com.br/github/dcp-pi-06-games-engines) - A puzzle game where the player reproduces a target guitar tone
 - [Ciências da Computação](https://felipeog.com.br/github/dcp-pi-07-ciencias-da-computacao) - A web platform to manage information security end to end
 
-**Other**
+Design
+
+- [Padronagem](https://felipeog.com.br/github/padronagem) - Interactive version of an Industrial Design exercise
+
+### Other
 
 - [Cid'Arte](https://felipeog.com.br/github/cidarte) - Website created for an architecture project
 - [Felipe OG blog posts](https://felipeog.com.br/github/felipeog-blog-posts) - Repository for managing blog posts using GitHub Projects
-- [Padronagem](https://felipeog.com.br/github/padronagem) - Interactive version of an Industrial Design exercise
 - [web.dev Accessibility Testing](https://felipeog.com.br/github/webdev-accessibility-testing) - Accessibility testing demo
 - [TTS](https://felipeog.com.br/github/tts) - A text-to-speech reader built on the browser's native Web Speech API
