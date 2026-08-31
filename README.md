@@ -59,11 +59,11 @@ Computer Science
 
 Design
 
+- [Cid'Arte](https://felipeog.com.br/github/cidarte) - Website created for an architecture project
 - [Padronagem](https://felipeog.com.br/github/padronagem) - Interactive version of an Industrial Design exercise
 
 ### Other
 
-- [Cid'Arte](https://felipeog.com.br/github/cidarte) - Website created for an architecture project
 - [Felipe OG blog posts](https://felipeog.com.br/github/felipeog-blog-posts) - Repository for managing blog posts using GitHub Projects
-- [web.dev Accessibility Testing](https://felipeog.com.br/github/webdev-accessibility-testing) - Accessibility testing demo
 - [TTS](https://felipeog.com.br/github/tts) - A text-to-speech reader built on the browser's native Web Speech API
+- [web.dev Accessibility Testing](https://felipeog.com.br/github/webdev-accessibility-testing) - Accessibility testing demo
