@@ -1,8 +1,8 @@
 # 👨🏻‍💻 About me
 
-Hello! I'm **Felipe**, a **Frontend Developer** obsessed with the intersection of code and art.
+Hello! I'm **Felipe**, a **Frontend Developer** obsessed with the intersection of **code** and **art**.
 
-I write about **Web Development** and **creative animations** on [**my blog**](https://blog.felipeog.com.br/en/).
+I write about **web development** and **creative coding** on [**my blog**](https://blog.felipeog.com.br/en/).
 
 ## 🛠 Tech stack
 
